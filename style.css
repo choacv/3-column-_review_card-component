@@ -52,14 +52,14 @@ p{
     }
 
     .sedans {
-        border-radius: 10px 10px 0 0;
+        border-radius: 8px 8px 0 0;
         background-color: var(--BrightOrange);
     }
     .suvs {
         background-color: var(--DarkCyan);
     }
     .luxury {
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 8px 8px;
         background-color: var(--VeryDarkCyan);
     }
 
@@ -68,8 +68,8 @@ p{
         background-color: var(--VeryLightGray);
         height: 46px;
         width: 150px;
-        border: 2px solid var(--VeryLightGray);
-        border-radius: 25px;
+        border-style:none;
+        border-radius: 30px;
         margin-top: 10px;
     }
 .btn-sedans{
@@ -83,7 +83,7 @@ p{
 .btn-luxury{
     color: var(--VeryDarkCyan);
 }
-    .btn:active {
+    .btn:hover {
         cursor: pointer;
         border: 2px solid var(--VeryLightGray);
         background-color: transparent;
