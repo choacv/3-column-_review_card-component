@@ -115,15 +115,19 @@ p{
         }
         .luxury {
             border-radius: 0 10px 10px 0px;
-            padding: 48px 55px 55px 45px;
+            padding: 48px 50px 55px 45px;
         }
         .sedans {
             border-radius: 10px 0 0 10px;
+            padding: 48px 54px 55px 45px;
+        }
+        .suvs{
+            
+            padding: 48px 54px 55px 45px;
         }
         section {
             width: 307px;
             height: 500px;
-            padding: 48px 54px 55px 45px;
         }
 
         .btn {margin-top: 60px;
