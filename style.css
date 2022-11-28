@@ -16,83 +16,91 @@
     /******* (background, headings, buttons)*******/
     --VeryLightGray: hsl(0, 0%, 95%);
 }
+
 body {
     font-size: 15px;
     background-color: var(--VeryLightGray);
     color: var(--TransparentWhite);
     font-family: 'Lexend Deca', sans-serif;
-    }
+    font-weight: 400;
+}
 
-    main {
-        margin: 87px 25px 25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header {
-        height: 79px;
-    }
+main {
+    margin: 87px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 79px;
+}
+
 h1 {
+    color: var(--VeryLightGray);
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    height: 76px;
+    height: 70px;
     font-size: 2.7em;
     font-weight: 700;
 }
 
-p{
-    height: 145px;
-    line-height: 1.8em;
+p {
+    height: 160px;
+    line-height: 1.6em;
 }
 
-    section {
-        width: 325px;
-        height: 445px;
-        padding: 48px 45px 46px 45px;
-    }
+section {
+    width: 325px;
+    height: 445px;
+    padding: 48px 45px 46px 45px;
+}
 
-    .sedans {
-        border-radius: 8px 8px 0 0;
-        background-color: var(--BrightOrange);
-    }
-    .suvs {
-        background-color: var(--DarkCyan);
-    }
-    .luxury {
-        border-radius: 0 0 8px 8px;
-        background-color: var(--VeryDarkCyan);
-    }
+.sedans {
+    border-radius: 8px 8px 0 0;
+    background-color: var(--BrightOrange);
+}
 
-    .btn {
-        font-size: 1em;
-        background-color: var(--VeryLightGray);
-        height: 46px;
-        width: 150px;
-        border-style:none;
-        border-radius: 30px;
-        margin-top: 10px;
-    }
-.btn-sedans{
+.suvs {
+    background-color: var(--DarkCyan);
+}
+
+.luxury {
+    border-radius: 0 0 8px 8px;
+    background-color: var(--VeryDarkCyan);
+}
+
+.btn {
+
+    text-align: center;
+    line-height: 50px;
+    background-color: var(--VeryLightGray);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.btn-sedans {
     color: var(--BrightOrange);
 }
 
-.btn-suvs{
+.btn-suvs {
     color: var(--DarkCyan);
 }
 
-.btn-luxury{
+.btn-luxury {
     color: var(--VeryDarkCyan);
 }
-    .btn:hover {
-        cursor: pointer;
-        border: 2px solid var(--VeryLightGray);
-        background-color: transparent;
-        color: var(--VeryLightGray);
-    }
 
-.button:link{
-    color:transparent;
+.btn:hover {
+    cursor: pointer;
+    border: 2px solid var(--VeryLightGray);
+    background-color: transparent;
+    color: var(--VeryLightGray);
 }
+
 /***************footer***************/
 .attribution {
     color: rgba(0, 0, 0, 0.599);
@@ -104,6 +112,7 @@ p{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
 /************media queries**********/
 
 @media screen and (min-width: 992px) {
@@ -112,24 +121,28 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        }
-        .luxury {
-            border-radius: 0 10px 10px 0px;
-            padding: 48px 50px 55px 45px;
-        }
-        .sedans {
-            border-radius: 10px 0 0 10px;
-            padding: 48px 54px 55px 45px;
-        }
-        .suvs{
-            
-            padding: 48px 54px 55px 45px;
-        }
-        section {
-            width: 307px;
-            height: 500px;
-        }
+    }
 
-        .btn {margin-top: 60px;
-        }
+    .luxury {
+        border-radius: 0 10px 10px 0px;
+        padding: 48px 50px 55px 45px;
+    }
+
+    .sedans {
+        border-radius: 10px 0 0 10px;
+        padding: 48px 54px 55px 45px;
+    }
+
+    .suvs {
+
+        padding: 48px 54px 55px 45px;
+    }
+
+    section {
+        width: 307px;
+        height: 500px;
+    }
+p {
+    margin-bottom: 45px;
+}
 }
